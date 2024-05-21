@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+    <noscript>Your browser does not support JavaScript!</noscript>
+<html lang="eng">
+    <!styz.online!>
+    <!Copyright ©2024 styz.online>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>styz.online</title>
+    <link rel="icon" href="assets/logostyztab.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        function isMobileDevice() {
+            return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+        }
+        
+        function showBetaMessageWithDelay() {
+            if (isMobileDevice()) {
+                setTimeout(function() {
+                    alert("⚠️ | The website on mobile devices is in BETA phase. If you have any questions, please contact us! styz@vp.pl");
+                }, 3000);
+            }
+        }
+        
+        window.onload = showBetaMessageWithDelay;
+        </script>
+        
+</head>
+<body>
+
+    <div id="loading-text">Loading...</div>
+    <script>
+        const originalTitle = document.title;
+        const hiddenTitle = "See you! 🙁";
+
+        function handleVisibilityChange() {
+            if (document.hidden) {
+                document.title = hiddenTitle;
+            } else {
+                document.title = originalTitle;
+            }
+        }
+
+        document.addEventListener("visibilitychange", handleVisibilityChange);
+    </script>
+    <!1>
+    <div class="stage" id="stage1">
+        <span class="a">
+    <div class="top-bar">
+        <a href="url" target="_blank"><h3>New website look! 💙</h3></a>
+    </div>
+
+    <header>
+                <div class="hfooter">
+                    <span class="a">
+                        <a href="url" target="_blank"><img src="assets/user.png"> </a>
+                    </span>
+                    <img src="assets/Rectangle.png" class="flatten-vertical">
+                    <span class="linktext">
+                        <a href="url" target="_blank">Home</a>
+                    </span>
+                    <span class="linktext">
+                        <a href="https://dsc.gg/Styz" target="_blank">Discord</a>
+                    </span>
+                </div>
+            </header>
+
+            <div class="chapter"></div>
+            <div class="blank">
+                <div class="mobile-block">
+                    Discord Bot!
+                </div>
+            </div> 
+            <div class="logo-1"></div>
+            <div class="logo-2"></div>
+            <span class="coming">Coming soon...</span>
+
+
+
+            
+
+            <div class="line"></div>
+        </span>
+    </div>
+
+
+
+    <script src="main.js"></script>
+    <footer>
+        <div class="left">
+            <a href="https://www.instagram.com/styzbot/" class="fa fa-instagram" target="_blank"></a>
+            <a href="https://x.com/StyzBot" class="fa fa-twitter" target="_blank"></a>
+            <a href="https://www.youtube.com/@styzbot" class="fa fa-youtube-play" target="_blank"></a>
+            <a href="https://www.tiktok.com/@styzbot" class="fa fa-child" target="_blank"></a>
+        </div>
+        <div class="center">Made with ❤️ for Styz</div>
+        <div class="right">©️ 2024 Styz All rights reserved.</div>
+    </footer>
+</body>
+</html>

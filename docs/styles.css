@@ -166,14 +166,14 @@ p {
     text-shadow: 16px 16px 32px rgba(0, 0, 0, 0.2); 
   }
 
-  .styz {
+  .coming {
     position: absolute;
     left: 188.6px;
-    top: 392px;
+    top: 492px;
     overflow-wrap: break-word;
     font-family: 'Lexend Deca';
     font-weight: 700;
-    font-size: 128px;
+    font-size: 80px;
     color: #FFFFFF;
     text-shadow: 8px 8px 16px rgba(0, 0, 0, 0.2); 
   }
@@ -684,7 +684,7 @@ footer {
 
 .social-icons33 a {
     color: #007BFF;
-    font-size: 28px;
+    font-size: 20px;
     transition: color 0.5s ease;
 }
 
